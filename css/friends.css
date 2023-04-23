@@ -1,0 +1,84 @@
+#friends-content {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+}
+#friends-content .friends-list {
+  display: flex;
+  flex-direction: columns;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+#friends-content .friends-list .friends-item {
+  position: relative;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  width: 100%;
+  height: 85px;
+  border-radius: 12px;
+  line-height: 1;
+  background: rgba(255,255,255,0.6);
+  transition: 0.5s;
+}
+#friends-content .friends-list .friends-item:hover {
+  background: #4976f5;
+  border-color: #4976f5;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+#friends-content .friends-list .friends-item a {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+#friends-content .friends-list .friends-item a:hover {
+  color: #fff;
+}
+#friends-content .friends-list .friends-item a .avatar {
+  display: flex;
+  flex-decoration: column;
+  overflow: hidden;
+  margin: 0 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 35px;
+}
+#friends-content .friends-list .friends-item a .avatar img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+}
+#friends-content .friends-list .friends-item a .userinfo {
+  overflow: hidden;
+  z-index: 1;
+  width: calc(100% - 80px);
+}
+#friends-content .friends-list .friends-item a .userinfo .name {
+  line-height: 1.6;
+  font-weight: 700;
+  font-size: 1.23em;
+}
+#friends-content .friends-list .friends-item a .userinfo .desc {
+  line-height: 1.6;
+  font-size: 0.93em;
+}
+#friends-content .friends-list .friends-item a .avatar-clone {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(35%, 35%);
+  transition: 0.5s;
+  width: 120px;
+  height: 120px;
+  opacity: 0.2;
+  border-radius: 9999px;
+  overflow: hidden;
+}
+#friends-content .friends-list .friends-item a .avatar-clone img {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 100%;
+  transition: filter 375ms ease-in 0.2s;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><title>Hexo Theme Mcolor [ ITSATAN ]</title><link rel="stylesheet" href="/iconfont/iconfont.css"><link rel="stylesheet" href="/css/mcolor.css"><link rel="stylesheet" href="/prism/prism.css"><meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/atom.xml" title="ITSATAN" type="application/atom+xml">
+</head><body style="background:linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);"><main style="margin-top:0px;padding:35px 0px;"><section class="container" style="overflow: hidden"><article id="post"><div id="post-header"><h2 id="post-title">Hexo Theme Mcolor</h2><div id="secondary"><a href="/categories/Hexo/">Hexo</a><span class="line">/</span><a href="/tags/Hexo/">Hexo</a><a href="/tags/Mcolor/">Mcolor</a></div><div id="extra"><span>2023-04-23</span><div class="extra-info"><div class="post-count">字数统计约:&nbsp;164</div><div class="post-time">阅读时长约:&nbsp;1分钟</div></div></div></div><div id="post-content"><h3 id="主题预览"><a href="#主题预览" class="headerlink" title="主题预览"></a>主题预览</h3><p>预览地址：<a href="https://itsatan.github.io/">https://itsatan.github.io/</a></p>
+<h3 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h3><p>进入到自己的 Hexo 博客目录，在博客目录下拉取主题代码</p>
+<pre class="line-numbers language-none"><code class="language-none">git clone https:&#x2F;&#x2F;github.com&#x2F;itsatan&#x2F;hexo-theme-mcolor.git themes&#x2F;moclor<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>在 Hexo 目录的<code>_config.yml</code>中将<code>theme</code>的值改为<code>moclor</code></p>
+<h3 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h3><pre class="line-numbers language-none"><code class="language-none">yarn add hexo-renderer-jade<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<pre class="line-numbers language-none"><code class="language-none">yarn add hexo-generator-feed<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<pre class="line-numbers language-none"><code class="language-none">yarn add hexo-generator-search<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<pre class="line-numbers language-none"><code class="language-none">yarn add hexo-wordcount<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h3 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h3><pre class="line-numbers language-none"><code class="language-none">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h3 id="分类页配置"><a href="#分类页配置" class="headerlink" title="分类页配置"></a>分类页配置</h3><pre class="line-numbers language-none"><code class="language-none">hexo new page categories<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<pre class="line-numbers language-none"><code class="language-none">---
+title: 分类
+date: 2023-04-23 22:37:43
+layout: categories
+---<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+<h3 id="朋友圈配置"><a href="#朋友圈配置" class="headerlink" title="朋友圈配置"></a>朋友圈配置</h3><pre class="line-numbers language-none"><code class="language-none">hexo new page friends<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<pre class="line-numbers language-none"><code class="language-none">---
+title: 朋友圈
+date: 2023-04-23 22:37:43
+layout: friends
+---<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+<h3 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h3><p>修改本主题目录下的<code>_config.yml</code>文件</p>
+</div><div id="post-abstract"><p>原文作者:&nbsp;<a href="https://itsatan.github.io">ITSATAN</a></p><p>原文链接:&nbsp;<a href="https://itsatan.github.io/2023/04/23/Mcolor/">Hexo Theme Mcolor</a></p><p>发表日期: 2023-04-23 22:38:58</p><p>更新日期: 2023-04-23 22:49:51</p><p>版权声明: 本文采用<a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可</p></div><div id="post-pager"><div class="prev"></div><div class="next"><p>下一篇</p><a href="/2023/04/23/hello-world/" title="Hello World">Hello World</a></div></div></article></section></main><div id="close"><a class="iconfont icon-close" href="/"></a></div><script src="https://code.jquery.com/jquery-3.6.0.min.js"></script><script src="/js/mcolor.js"></script><script src="/js/search.js"></script><script src="/prism/prism.js"></script><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script type="text/javascript">var search_path = "search.xml";
+if (search_path.length == 0) {
+    search_path = "search.xml";
+}
+var path = "/" + search_path;
+searchFunc(path, 'local-search-input', 'local-search-result');</script></body></html>

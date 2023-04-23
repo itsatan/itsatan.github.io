@@ -1,0 +1,37 @@
+#categories {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#categories .catalog_magnet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 10px;
+  color: #4c4948;
+  background: #f2f2f2;
+  border-radius: 12px;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+#categories .catalog_magnet .title {
+  font-weight: 500;
+}
+#categories .catalog_magnet .title .subtitle {
+  font-size: 0.1rem;
+  padding-left: 0.2rem;
+}
+#categories .catalog_magnet i {
+  font-size: 1.2rem;
+}
+#categories .catalog_magnet:hover {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #4976f5;
+}
