@@ -1,8 +1,13 @@
+https://itsatan.github.io/2023/05/05/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/
 https://itsatan.github.io/categories/index.html
 https://itsatan.github.io/friends/index.html
 https://itsatan.github.io/2023/04/23/Mcolor/
 https://itsatan.github.io/2023/04/23/hello-world/
 https://itsatan.github.io/
+https://itsatan.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/
+https://itsatan.github.io/tags/LeetCode/
+https://itsatan.github.io/tags/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/
 https://itsatan.github.io/tags/Hexo/
 https://itsatan.github.io/tags/Mcolor/
+https://itsatan.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/
 https://itsatan.github.io/categories/Hexo/
